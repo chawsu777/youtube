@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Youtube Home Page</title>
+	<link rel="shortcut icon" href="images/logoicon.png">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,400;8..144,500;8..144,600;8..144,700&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+</head>
+<body style="background-color: #f1f1f1;">
+
+	<!--Header Nav-->
+	<div class="header">
+		<div class="header-content">
+			<div class="header-left">
+    			<i class="fa-solid fa-bars"></i>
+    			<img src="images/ytlogo.png" class="logo">	
+			</div>
+			<div class="header-middle">
+				<div class="search-container">
+					<input type="text" name="search" placeholder="Search" class="search-input">
+					<div class="search-button">
+						<a href="#one"><i class="fa-solid fa-magnifying-glass"></i></a>					
+					</div>
+				</div>
+				<i class="fa-solid fa-microphone"></i>											
+			</div>
+			<div class="header-right">
+				<i class="fa-solid fa-video"></i>
+				<i class="fa-solid fa-bell position-relative">
+					<span class="badge bg-danger rounded-pill position-absolute start-100 translate-middle" style="font-size:0.6rem;">9+</span>
+				</i>
+				<img src="images/profile1.png">	
+			</div>
+		</div>
+	</div>
+
+	<!--Body-->
+	<div class="body">		
+			<div class="side-bar">
+				<ul class="nav flex-column">
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-solid fa-house"></i></span>Home</a>
+					</li>	
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-brands fa-youtube"></i></span>Shorts</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-solid fa-folder-plus"></i></span> Subscriptions</a>
+					</li>				
+				</ul>
+				<hr>
+				<ul class="nav flex-column">
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-sharp fa-solid fa-film"></i></span>Library</a>
+					</li>	
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-solid fa-clock-rotate-left"></i></span>History</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-solid fa-circle-play"></i></span>Your videos</a>
+					</li>	
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-regular fa-clock"></i></span>Watch later</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-solid fa-thumbs-up"></i></span>Liked videos</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-solid fa-angle-down"></i></span>Show more</a>
+					</li>			
+				</ul>	
+				<hr>
+				<h5 class="mb-3 sub-title">Subscriptions</h5>
+				<ul class="nav flex-column">
+					<li class="channel"> <img src="images/channelpf10.png" class="sub-pf"> advicebyangel</li>
+					<li class="channel"> <img src="images/channelpf15.png" class="sub-pf"> emi wong</li>
+					<li class="channel"> <img src="images/channelpf1.png" class="sub-pf"> estella </li>
+					<li class="channel"> <img src="images/channelpf4.png" class="sub-pf"> Cooking Tree </li>
+					<li class="channel"> <img src="images/channelpf3.png" class="sub-pf"> Crafter Frog</li>
+					<li class="channel"> <img src="images/channelpf2.png" class="sub-pf"> MSA Story Animated</li>
+					<li class="channel"> <img src="images/channelpf8.png" class="sub-pf"> Jessica Vu</li>
+					<li class="channel"> <span><i class="fa-solid fa-angle-down m-2"></i></span> Show more</li>	
+				</ul>		
+				<hr>
+				<h5 class="mb-3 sub-title">Explore</h5>
+				<ul class="nav flex-column">
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-solid fa-fire"></i></span>Trending</a>
+					</li>	
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-solid fa-music"></i></span>Music</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-solid fa-headset"></i></span>Live</a>
+					</li>	
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-solid fa-gamepad"></i></span>Gaming</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-sharp fa-solid fa-newspaper"></i></span>News</a>
+					</li>	
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-solid fa-trophy"></i></span>Sports</a>
+					</li>		
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-regular fa-lightbulb"></i></span>Learning</a>
+					</li>	
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-sharp fa-solid fa-vest"></i></span>Fashion & Beauty</a>
+					</li>								
+				</ul>
+				<hr>
+				<h5 class="mb-3 sub-title">More from YouTube</h5>
+				<ul class="nav flex-column">
+					<li class="channel"> <img src="images/icon1.png" class="yt-icon"> Creator Studio</li>
+					<li class="channel"> <img src="images/icon2.png" class="yt-icon"> YouTube Music </li>
+					<li class="channel"> <img src="images/icon3.png" class="yt-icon"> YouTube Kids</li>
+					<li class="channel"> <img src="images/icon4.png" class="yt-icon"> YouTube TV</li>
+				</ul>		
+				<hr>
+				<ul class="nav flex-column">
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-solid fa-gear"></i></span>Settings</a>
+					</li>	
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-solid fa-flag"></i></span>Report History</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-solid fa-circle-question"></i></span>Help</a>
+					</li>	
+					<li class="nav-item">
+						<a href="" class="nav link" data-bs-toggle="tab"><span><i class="fa-sharp fa-solid fa-comments"></i></span>Send feedback</a>
+					</li>								
+				</ul>
+				<hr>
+				<ul class="nav nav-footer mb-3">					
+					<li class="nav-item">
+						<a href="#" class="nav link">About</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav link">Press</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav link">Copyright</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav link">Contact us</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav link">Creators</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav link">Advertise</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav link">Developers</a>
+					</li>	
+				</ul>
+				<ul class="nav nav-footer mb-3">					
+					<li class="nav-item">
+						<a href="#" class="nav link">Terms</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav link">Privacy</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav link">Policy & Safety</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav link">How Youtube works</a>
+					</li>
+					<li class="nav-item">
+						<a href="#" class="nav link">Test new features</a>
+					</li>	
+				</ul>
+				<ul class="nav nav-footer mb-3">
+					<li class="nav-item">
+						<a href="#" class="nav link">© 2023 Google LLC</a>
+					</li>
+				</ul>
+
+
+			</div>		
+			<div class="body-content">
+				<div class="category-bar">
+					<button class="category-box all">All</button>
+					<button class="category-box">Mixes</button>
+					<button class="category-box">Playlists</button>
+					<button class="category-box">Talyor Swift</button>
+					<button class="category-box">Dance-pop</button>
+					<button class="category-box">Friendship</button>
+					<button class="category-box">Crochet</button>
+					<button class="category-box">Desserts</button>	
+					<button class="category-box">Gaming</button>
+					<button class="category-box">Programming</button>	
+					<button class="category-box">ASMR</button>	
+					<button class="category-box">Makeup tutorials</button>
+					<button class="category-box">MSA</button>	
+				</div>
+				<div class="video-section">
+					<div class="vid-row">
+						<div class="vid-col">
+							<img class="vid-cover" src="images/vidcover1.png">
+							<div class="vid-under">
+								<img class="channel-icon" src="images/channelpf1.png">
+								<div class="vid-text">
+									<h6>A little time with yourself, self-love playlist</h6>
+									<p>estella</p>
+									<p>21K views . 3 days ago</p>
+								</div>							
+							</div>							
+						</div>
+						<div class="vid-col">
+							<img class="vid-cover" src="images/vidcover2.png">
+							<div class="vid-under">
+								<img class="channel-icon" src="images/channelpf2.png">
+								<div class="vid-text">
+									<h6>My bestfriend stole my boyfriend while I was in coma</h6>
+									<p>MSA My Story Animated</p>
+									<p>22M views . 5 days ago</p>
+								</div>							
+							</div>							
+						</div>
+						<div class="vid-col">
+							<img class="vid-cover" src="images/vidcover3.png">
+							<div class="vid-under">
+								<img class="channel-icon" src="images/channelpf3.png">
+								<div class="vid-text">
+									<h6>BEGINNER FRIENDLY: Crochet GHOST from PLUSH yarn</h6>
+									<p>Crafter Frog</p>
+									<p>102K views . 2 weeks ago</p>
+								</div>							
+							</div>							
+						</div>
+						<div class="vid-col">
+							<img class="vid-cover" src="images/vidcover4.png">
+							<div class="vid-under">
+								<img class="channel-icon" src="images/channelpf4.png">
+								<div class="vid-text">
+									<h6>Strawberry Chocolate Roll Cake Recipe</h6>
+									<p>Cooking Tree</p>
+									<p>49K views . 3 weeks ago</p>
+								</div>							
+							</div>							
+						</div>						
+					</div>
+					<div class="vid-row">
+						<div class="vid-col">
+							<img class="vid-cover" src="images/vidcover5.png">
+							<div class="vid-under">
+								<img class="channel-icon" src="images/channelpf5.png">
+								<div class="vid-text">
+									<h6>I crochet the $300 chunky sweater of your dreams</h6>
+									<p>kirrilalia</p>
+									<p>3M views . 1 month ago</p>
+								</div>							
+							</div>							
+						</div>
+						<div class="vid-col">
+							<img class="vid-cover" src="images/vidcover6.png">
+							<div class="vid-under">
+								<img class="channel-icon" src="images/channelpf6.png">
+								<div class="vid-text">
+									<h6>Japanese Lunch Box Fried Shrimp [Bento]</h6>
+									<p>Nino's Home</p>
+									<p>896K views . 4 months ago</p>
+								</div>							
+							</div>							
+						</div>
+						<div class="vid-col">
+							<img class="vid-cover" src="images/vidcover7.png">
+							<div class="vid-under">
+								<img class="channel-icon" src="images/channelpf7.png">
+								<div class="vid-text">
+									<h6>[Playlist] song when you are in love</h6>
+									<p>joyfulmoments</p>
+									<p>156K views . 3 weeks ago</p>
+								</div>							
+							</div>							
+						</div>
+						<div class="vid-col">
+							<img class="vid-cover" src="images/vidcover8.png">
+							<div class="vid-under">
+								<img class="channel-icon" src="images/channelpf8.png">
+								<div class="vid-text">
+									<h6>Sleepy Mocha Makeup 🧦 (Get Ready With Me)</h6>
+									<p>Jessica Vu</p>
+									<p>887K views . 2 days ago</p>
+								</div>							
+							</div>							
+						</div>						
+					</div>					
+				</div>
+				<hr style="margin: 8px 0;">
+				<div class="shorts-section">
+					<div class="shorts-top">
+						<div class="shorts-title">
+							<img src="images/shortsicon.png" class="shorts-icon">
+							<h5>Shorts</h5>
+						</div>
+						<div class="shorts-cross">
+							<i class="fa-solid fa-xmark"></i>
+						</div>						
+					</div>					
+					<div class="shorts-row">
+						<div class="shorts-col">
+							<img src="images/shortscover1.png" class="shorts-cover">	
+							<h6>Get ready with me for gym #gym #workout# grwm</h6>
+							<p>11K views</p>						
+						</div>	
+						<div class="shorts-col">
+							<img src="images/shortscover2.png" class="shorts-cover">	
+							<h6>Korean style meal #kfriedchicken #milktea</h6>
+							<p>2.6M views</p>						
+						</div>	
+						<div class="shorts-col">
+							<img src="images/shortscover3.png" class="shorts-cover">	
+							<h6>A visit to flower market #flowerbouquets</h6>
+							<p>40K views</p>						
+						</div>	
+						<div class="shorts-col">
+							<img src="images/shortscover4.png" class="shorts-cover">	
+							<h6>Makeup items review #makeuptips</h6>
+							<p>3M views</p>						
+						</div>	
+						<div class="shorts-col">
+							<img src="images/shortscover5.png" class="shorts-cover">	
+							<h6>Romantic love songs ❤️ #lovesongs #coupleaesthics </h6>
+							<p>18K views</p>						
+						</div>	
+						<div class="shorts-col">
+							<img src="images/shortscover6.png" class="shorts-cover">	
+							<h6>Outfits ideas for you #fashiontips #teens </h6>
+							<p>2.2M views</p>						
+						</div>	
+
+					</div>					
+				</div>
+				<hr style="margin: 8px 0;">
+				<div class="video-section">
+					<div class="vid-row">
+						<div class="vid-col">
+							<img class="vid-cover" src="images/vidcover9.png">
+							<div class="vid-under">
+								<img class="channel-icon" src="images/channelpf9.png">
+								<div class="vid-text">
+									<h6>Cheese webfoot octopus in hurry. living alone in seoul</h6>
+									<p>planD</p>
+									<p>934K views . 2 months ago</p>
+								</div>							
+							</div>							
+						</div>
+						<div class="vid-col">
+							<img class="vid-cover" src="images/vidcover10.png">
+							<div class="vid-under">
+								<img class="channel-icon" src="images/channelpf10.png">
+								<div class="vid-text">
+									<h6>how to glow up in 24 hours (physically + mentally) ♡</h6>
+									<p>advicebyangel</p>
+									<p>397K views . 1 week ago</p>
+								</div>							
+							</div>							
+						</div>
+						<div class="vid-col">
+							<img class="vid-cover" src="images/vidcover11.png">
+							<div class="vid-under">
+								<img class="channel-icon" src="images/channelpf2.png">
+								<div class="vid-text">
+									<h6>Fan picks: your favorite MSA videos</h6>
+									<p>MSA My Story Animated</p>
+									<p>11M views . 5 months ago</p>
+								</div>							
+							</div>							
+						</div>
+						<div class="vid-col">
+							<img class="vid-cover" src="images/vidcover12.png">
+							<div class="vid-under">
+								<img class="channel-icon" src="images/channelpf12.png">
+								<div class="vid-text">
+									<h6>Lofi Study Vibes ❤️ Lofi Hip Hop & Chillhop Mix</h6>
+									<p>Bears Chillhop</p>
+									<p>442K Views . 2 months ago</p>
+								</div>							
+							</div>							
+						</div>						
+					</div>
+					<div class="vid-row">
+						<div class="vid-col">
+							<img class="vid-cover" src="images/vidcover13.png">
+							<div class="vid-under">
+								<img class="channel-icon" src="images/channelpf13.png">
+								<div class="vid-text">
+									<h6>how to build your acubi wardrobe! | acubi fashion</h6>
+									<p>kuroomi</p>
+									<p>146K views . 4 weeks ago</p>
+								</div>							
+							</div>							
+						</div>
+						<div class="vid-col">
+							<img class="vid-cover" src="images/vidcover14.png">
+							<div class="vid-under">
+								<img class="channel-icon" src="images/channelpf14.png">
+								<div class="vid-text">
+									<h6>taylor swift - cardigan (slowed + reverb)</h6>
+									<p>Music Lair</p>
+									<p>271K views . 6 months ago</p>
+								</div>							
+							</div>							
+						</div>
+						<div class="vid-col">
+							<img class="vid-cover" src="images/vidcover15.png">
+							<div class="vid-under">
+								<img class="channel-icon" src="images/channelpf15.png">
+								<div class="vid-text">
+									<h6>Full Body Standing TABATA Workout for Summer </h6>
+									<p>emi wong</p>
+									<p>1.4M views . 8 months ago</p>
+								</div>							
+							</div>							
+						</div>
+						<div class="vid-col">
+							<img class="vid-cover" src="images/vidcover16.png">
+							<div class="vid-under">
+								<img class="channel-icon" src="images/channelpf16.png">
+								<div class="vid-text">
+									<h6>[Mukbang ASMR] OMG..GIANT OCTOPUS LEGS 🐙</h6>
+									<p>Ssoyoung</p>
+									<p>270K views . 1 year ago</p>
+								</div>							
+							</div>							
+						</div>						
+					</div>					
+				</div> 
+			</div>
+		</div>		
+	</div>
+
+
+	
+
+</body>
+</html>
